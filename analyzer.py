@@ -14,7 +14,7 @@ def setup_gemini():
             "GEMINI_API_KEY not found. Please set it in your .env file.")
     genai.configure(api_key=api_key)
     # gemini-1.5-flash: fast, cheap, good enough for text analysis
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     return model
 
 

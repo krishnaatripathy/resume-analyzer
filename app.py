@@ -54,7 +54,7 @@ with st.sidebar:
     4. Get a detailed honest report
     """)
     st.markdown("---")
-    st.markdown("**Powered by:** Google Gemini 1.5 Flash")
+    st.markdown("**Powered by:** Google Gemini 2.5 Flash")
     st.markdown("**Note:** Your resume is not stored anywhere.")
     if not os.getenv("GEMINI_API_KEY"):
         st.warning("⚠️ GEMINI_API_KEY not found in .env")
